@@ -142,3 +142,7 @@ st.markdown('## Probabilidades dos Jogos da Copa Qatar-2022')
 st.markdown('*A relação vitória, Empate e Derrota é em relação a Seleção 1.')
 jogosCopa = pd.read_excel('Artigo_Streamlit\outputEstimativaJogosCopaMundo.xlsx', index_col=0)
 st.table(jogosCopa[['grupo', 'seleção1', 'seleção2', 'Vitória', 'Empate', 'Derrota']])
+
+
+OBSERVAÇÃO:
+- Copiando todo o conteúdo acima no VS Code, para rodar: 1º você terá que executar o código e depois no terminal dar o comando: streamlit run e o caminho do seu arquivo.py assim aparecerá o frontEnd.
