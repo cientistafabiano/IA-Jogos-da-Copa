@@ -1,5 +1,5 @@
 streamlit==1.15.1
-pandas==1.4.4
-numpy==1.18.5
+pandas==1.4.
 scipy==1.9.1
+numpy==1.18.5
 openpyxl==3.0.1
