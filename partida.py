@@ -6,7 +6,7 @@ import numpy as np
 st.title('Minha IA que prevê jogos da copa do Catar 2022!')
 
 #importando arquivo csv
-selecoes = pd.read_excel('DadosCopaDoMundoQatar2022.xlsx', sheet_name = 'selecoes', index_col=0)
+selecoes = pd.read_excel('Artigo_Streamlit/DadosCopaDoMundoQatar2022.xlsx', sheet_name = 'selecoes', index_col=0)
 # simular uma partida | cada vez q roda gera valores que sao o numero de gols |  size == len 
 # np.random.poisson(lam=m,size=1)
 # m == media de gols
