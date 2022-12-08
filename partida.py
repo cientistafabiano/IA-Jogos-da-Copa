@@ -102,7 +102,7 @@ listaselecoes2 = listaselecoes1.copy()
 j1, j2 = st.columns(2)
 selecao1 = j1.selectbox('Escolha a primeira Seleção', listaselecoes1)
 listaselecoes2.remove(selecao1)
-selecao2 = j2.selectbox('Escola a segunda Seleção', listaselecoes2, index=1)
+selecao2 = j2.selectbox('Escolha a segunda Seleção', listaselecoes2, index=1)
 st.markdown('-----')
 
 jogo = ProbabilidadesPartidas(selecao1, selecao2)
